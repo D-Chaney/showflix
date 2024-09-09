@@ -172,7 +172,7 @@ ul {
 /* Section: Now Playing */
 
 section.now-playing {
-  padding: 60px;
+  padding: 0px 60px 60px;
   background: url(../images/showcase-bg.jpg) no-repeat center center/cover;
 }
 
@@ -207,6 +207,8 @@ section h2 {
 
 .swiper-rating {
   padding: 10px;
+  background-color: #0a4b8f;
+  width: 100%;
 }
 
 /* Movie Details */
@@ -254,7 +256,7 @@ section h2 {
 
 /* Search */
 .search {
-  padding: 60px;
+  padding: 40px;
   margin-bottom: 40px;
 }
 
@@ -332,17 +334,16 @@ section h2 {
 
 /* Alert */
 .alert {
-  background: red;
   padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
-.alert-success {
+.success {
   background: green;
 }
 
-.alert-error {
+.error {
   background: red;
 }
 
