@@ -6,7 +6,7 @@
     <!-- Movie Details -->
     <section class="container">
       <div class="back">
-        <a class="btn" href="/">Back To Movies</a>
+      <a class="btn" onclick="goBack()">&larr; Go Back</a>
       </div>
       <!-- Movie Details Output -->
       <div id="movie-details"></div>

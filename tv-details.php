@@ -7,7 +7,7 @@
     <!-- Show Details -->
     <section class="container">
       <div class="back">
-        <a class="btn" href="shows.php">Back To TV Shows</a>
+        <a class="btn" onclick="goBack()">&larr; Go Back</a>
       </div>
       <!-- Show Details Output -->
       <div id="show-details"></div>
