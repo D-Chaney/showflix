@@ -5,6 +5,8 @@
 
     <!-- Now Playing Section -->
     <section class="now-playing">
+        <!-- Search Movies -->
+        <?php include_once './components/searchbox.php'; ?>
       <h2>Now Playing</h2>
       <div class="swiper">
         <div class="swiper-wrapper">
@@ -19,9 +21,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Search Movies -->
-    <?php include_once './components/searchbox.php'; ?>
 
     <!-- Popular Movies -->
     <section class="container">
