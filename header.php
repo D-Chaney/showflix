@@ -21,7 +21,7 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <div class="logo"><a href="/">SHOWFLIXX</a></div>
+        <div class="logo"><a href="/">SHOWFLIX</a></div>
         <nav>
           <ul>
             <li>

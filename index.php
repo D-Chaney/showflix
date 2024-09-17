@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Flixx';
+    $title = 'ShowFlix';
     include_once './header.php';
 ?>
 

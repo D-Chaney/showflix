@@ -1,6 +1,6 @@
 <!--Includes the header and sets the title -->
 <?php 
-    $title = 'Flixx | Search Movies & Shows';
+    $title = 'ShowFlix | Search Movies & Shows';
     include_once './header.php'; 
 ?>
 
@@ -14,13 +14,9 @@
       <!-- Dynamic search results loaded through javascript fetch api -->
       <div id="search-results" class="grid"></div>
       
-      <div id="pagination">
-        <div class="pagination">
-          <button class="btn btn-primary" id="prev">Prev</button>
-          <button class="btn btn-primary" id="next">Next</button>
-          <div class="page-counter">Page 1 of 5</div>
-        </div>
-      </div>
+      <!--Dynamic pagination inside of script.js -->
+      <div id="pagination"></div>
+
     </section><!-- Search-results -->
 
     <!-- Footer -->
