@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="./favicon.png"/>
     <link rel="stylesheet" href="lib/swiper.css" />
     <link rel="stylesheet" href="lib/fontawesome.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -21,7 +22,7 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <div class="logo"><a href="/">SHOWFLIX</a></div>
+        <div class="logo"><a href="/">ShowFlix</a></div>
         <nav>
           <ul>
             <li>
