@@ -1,5 +1,5 @@
 <?php $title = 'Popular Shows';
-include_once './header.php'; ?>
+include_once './components/header.php'; ?>
 
     <!-- Popular TV Shows -->
     <section class="container">

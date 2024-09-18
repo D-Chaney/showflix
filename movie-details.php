@@ -1,6 +1,6 @@
 <?php
-    $title = 'Flixx | Movie Details';
-    include_once './header.php';
+    $title = 'ShowFlix | Movie Details';
+    include_once './components/header.php';
 ?>
 
     <!-- Movie Details -->

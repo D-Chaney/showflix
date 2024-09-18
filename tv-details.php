@@ -1,7 +1,7 @@
 
 <?php
     $title = 'ShowFlix | Show Details';
-    include_once './header.php';
+    include_once './components/header.php';
 ?>
 
     <!-- Show Details -->

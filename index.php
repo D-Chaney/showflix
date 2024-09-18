@@ -1,6 +1,6 @@
 <?php 
     $title = 'ShowFlix';
-    include_once './header.php';
+    include_once './components/header.php';
 ?>
 
     <!-- Now Playing Section -->

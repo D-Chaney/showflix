@@ -1,7 +1,7 @@
 <!--Includes the header and sets the title -->
 <?php 
     $title = 'ShowFlix | Search Movies & Shows';
-    include_once './header.php'; 
+    include_once './components/header.php'; 
 ?>
 
     <!-- Search Movies -->
