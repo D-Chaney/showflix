@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+
+      <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="icon" type="image/png" href="./favicon.png"/>
     <link rel="stylesheet" href="lib/swiper.css" />
     <link rel="stylesheet" href="lib/fontawesome.css" />
