@@ -20,7 +20,7 @@
     </section><!-- Search-results -->
 
     <!-- Footer -->
-    <?php include_once './footer.php'; ?>
+    <?php include_once './components/footer.php'; ?>
 
     <!-- Loads a spinner while the Api fetches the data -->
      <?php include_once './components/spinner.php'; ?>

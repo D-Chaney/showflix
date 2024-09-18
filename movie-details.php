@@ -13,7 +13,7 @@
     </section>
 
     <!-- Footer Section -->
-    <?php include_once './footer.php'; ?>
+    <?php include_once './components/footer.php'; ?>
 
     <!-- Shows a spinner when the page is loading -->
     <?php include_once './components/spinner.php' ?>
