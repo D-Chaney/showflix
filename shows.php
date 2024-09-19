@@ -1,8 +1,11 @@
 <?php $title = 'Popular Shows';
 include_once './components/header.php'; ?>
 
+<!-- Search Movies -->
+<?php include_once './components/searchbox.php'; ?>
+
      <!-- Popular TV Shows -->
-     <section class="container">
+    <section class="container">
         <h2>Popular TV Shows</h2>
         <div class="swiper">
             <div id="popular-shows" class="swiper-wrapper"></div>
