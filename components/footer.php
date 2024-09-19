@@ -1,6 +1,6 @@
 
 <footer class="main-footer">
-    <div class="container">
+    <div class="container footer">
         <div><span class="logo">SHOWFLIX</span></div>
         <div class="copyright">Copyright &copy; 2024 ShowFlix</div>
         <!-- <div class="social-links">

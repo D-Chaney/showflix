@@ -307,7 +307,7 @@ section h2 {
 }
 
 #search-term {
-    min-width: 225px;
+    min-width: 200px;
     max-width: 350px;
 }
 
@@ -411,4 +411,49 @@ section h2 {
 .company-group {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 450px) {
+    .main-header .logo a,
+    .main-footer .container .logo { 
+        font-size: 20px;
+}
+
+    .container {
+        max-width: 90%;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    div.container.footer {
+        display: flex;
+        flex-direction: column  !important;
+    }
+
+    section.now-playing {
+        padding: 0px 20px 25px;
+        background: url(../images/showcase-bg.jpg) no-repeat center center/cover;
+      }
+
+      .details-top img {
+           max-width: 300px;
+    }
+      
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Movie Details */
+    .details-top {
+        flex-direction: column!important;
+    }
+
+    .details-top h2 {
+        display: none;
+    }
+
+    .details-top img {
+        margin-right: 0;
+    }
 }
