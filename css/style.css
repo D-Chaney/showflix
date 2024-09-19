@@ -87,7 +87,7 @@ ul {
 
 .main-header {
   padding: 20px 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: #131313
 }
 
 .main-header .logo a,
@@ -123,28 +123,58 @@ ul {
 
 /* Card */
 .card {
-  background: #04376b;
-  padding: 5px;
+  position: relative;
+  padding: 1rem;
+  text-align: center;
 }
 
 .card img {
   width: 100%;
+  max-width: 300px;
 }
 
 .card-body {
-  padding: 10px;
-  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  width: 90%;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+
 }
+
+h5.card-title {
+  color: white;
+  font-size: 1.5rem;
+} 
 
 .card:hover {
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
-  background: #0a4b8f;
+}
+
+.card-text {
+    text-align: center!important;
+    padding: 1.5rem 0;
+}
+
+.card-text2 {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;;
+}
+
+.no-image-logo {
+    font-size: 1.5rem;
+    color: red;
+    font-weight: bold;
 }
 
 /* Footer */
 .main-footer {
-  background: #020d18;
+  background: #131313;
   padding: 20px 0;
   margin-top: 20px;
 }
@@ -200,7 +230,7 @@ section h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 350px;
+  max-width: 300px;
 }
 
 .swiper-slide img {
@@ -376,6 +406,3 @@ section h2 {
     display: flex;
     flex-direction: column;
 }
-
-/********* NEW SLIDER TEST SECTION *************************************************/
-/**********************************************************************************/

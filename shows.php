@@ -1,10 +1,20 @@
 <?php $title = 'Popular Shows';
 include_once './components/header.php'; ?>
 
-    <!-- Popular TV Shows -->
+     <!-- Popular TV Shows -->
+     <section class="container">
+        <h2>Popular TV Shows</h2>
+        <div class="swiper">
+            <div id="popular-shows" class="swiper-wrapper"></div>
+        </div>
+    </section>
+
+    <!-- Top Rated TV Shows -->
     <section class="container">
-      <h2>Popular TV Shows</h2>
-      <div id="popular-shows" class="grid"></div>
+        <h2>Top Rated TV Shows</h2>
+        <div class="swiper">
+            <div id="top-rated" class="swiper-wrapper"></div>
+        </div>
     </section>
 
     <!-- Footer Section -->
