@@ -6,6 +6,8 @@ include_once './components/header.php'; ?>
         <h2>Popular TV Shows</h2>
         <div class="swiper">
             <div id="popular-shows" class="swiper-wrapper"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
 
@@ -14,6 +16,8 @@ include_once './components/header.php'; ?>
         <h2>Top Rated TV Shows</h2>
         <div class="swiper">
             <div id="top-rated" class="swiper-wrapper"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
 

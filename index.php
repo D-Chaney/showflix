@@ -10,6 +10,8 @@
         <h2>Now Playing</h2>
         <div class="swiper">
             <div id="now-playing" class="swiper-wrapper"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
 
@@ -18,6 +20,8 @@
         <h2>Popular Movies</h2>
         <div class="swiper">
             <div id="popular-movies" class="swiper-wrapper"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
 
@@ -26,6 +30,8 @@
         <h2>Top Rated Movies</h2>
         <div class="swiper">
             <div id="top-rated-movies" class="swiper-wrapper"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section> 
 
@@ -34,6 +40,8 @@
         <h2>Upcoming Movies</h2>
         <div class="swiper">
             <div id="upcoming-movies" class="swiper-wrapper"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>  
     </section>
 

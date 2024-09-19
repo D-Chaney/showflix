@@ -245,6 +245,12 @@ section h2 {
   z-index: 2; /* Make sure the hovered image is on top */
 }
 
+.swiper-button-next, .swiper-button-prev {
+    color: #f6fa00;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .swiper-rating {
   padding: 10px;
   background-color: #0a4b8f;
