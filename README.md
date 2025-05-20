@@ -18,13 +18,13 @@ Showflix is a movie and tv show directory which give you information on the sele
   git clone https://github.com/D-Chaney/showflix.git
   ```
 
-- Remove the remote url settings from your local copy and add your own
+- Remove this remote url settings from your local copy if its there and add your own
   ```
   git remote remove origin
   ```
 
 - Get an theMovieDb API key by registering for an account first <a href="https://www.themoviedb.org/signup">themoviedb registration</a>
 
-- In the JS/script file, update the API key with your own!
+- In the JS/scripts.js file, update the API key with your own!
 
 ### 🤓 Happy Coding,  Thanks you for visiting 👋
