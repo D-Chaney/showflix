@@ -1,7 +1,5 @@
 ![Project Banner](https://github.com/D-Chaney/showflix/blob/main/banner.png?raw=true)
 
-# SHOWFLIX
-
 ## ABOUT
 Showflix is a movie and tv show directory which give you information on the selected movie or show such as ratings, release date, description, genre, runtime and more. The project fetches all its data from the themoviedb API. 
 
